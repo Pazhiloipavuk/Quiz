@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context=".entry.MainMenuActivity">
+
+    <Button
+        android:id="@+id/btnQuiz"
+        style="@style/MyButtons"
+        android:layout_above="@id/btnStatistic"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Quiz"/>
+
+    <Button
+        android:id="@+id/btnStatistic"
+        style="@style/MyButtons"
+        android:layout_centerInParent="true"
+        android:text="@string/Statistic"/>
+
+    <Button
+        android:id="@+id/btnExit"
+        style="@style/MyButtons"
+        android:layout_below="@id/btnStatistic"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Exit"/>
+
+</RelativeLayout>

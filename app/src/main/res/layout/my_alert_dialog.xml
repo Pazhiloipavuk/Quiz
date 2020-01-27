@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background = "@drawable/button_shape"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp"
+        android:layout_margin="15dp"/>
+    <EditText
+        android:id="@+id/edtNameOfGamer"
+        android:layout_below="@+id/txtResult"
+        android:inputType="textPersonName"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp"
+        android:textColorHint="@color/colorIvory"/>
+    <Button
+        android:id="@+id/btnYes"
+        android:layout_below="@+id/edtNameOfGamer"
+        style="@style/MyButtons"
+        android:layout_height="40dp"
+        android:layout_width="200dp"
+        android:textSize="30dp"
+        android:text="@string/OK"/>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="Quiz">Quiz</string>
+    <string name="Statistic">Statistic</string>
+    <string name="Exit">Exit</string>
+    <string name="Easy">Easy</string>
+    <string name="Hard">Hard</string>
+    <string name="SelectDifficulty">Select Difficulty</string>
+    <string name="CorrectAnswers">Correct answers:</string>
+    <string name="Zero">0</string>
+    <string name="ChooseVariant">Choose the variant:</string>
+    <string name="Congratulation">Congratulations!!!</string>
+    <string name="YouWon">You won!</string>
+    <string name="OK">OK</string>
+    <string name="Sorry">Sorry(((</string>
+    <string name="YouLose">You lose!</string>
+    <string name="InputYourName">Input your name:</string>
+    <string name="Name">NAME</string>
+    <string name="Points">POINTS</string>
+    <string name="Regime">REGIME</string>
+</resources>

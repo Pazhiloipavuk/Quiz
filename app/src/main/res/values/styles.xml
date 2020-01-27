@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBlack</item>
+        <item name="colorPrimaryDark">@color/colorBlack</item>
+        <item name="colorAccent">@color/colorWhite</item>
+    </style>
+    
+    <style name="MyButtons" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button_main</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:textSize">40dp</item>
+        <item name="android:textColor">@drawable/button_text</item>
+    </style>
+
+    <style name="MyTextViews" parent="android:Widget.TextView">
+        <item name="android:textSize">40dp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="MyButtons.Variants" parent="MyButtons">
+        <item name="android:textSize">30dp</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_width">250dp</item>
+    </style>
+</resources>
